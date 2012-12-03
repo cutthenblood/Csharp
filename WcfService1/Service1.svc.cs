@@ -25,7 +25,8 @@ namespace WcfService1
             }
             if (composite.BoolValue)
             {
-                composite.StringValue += "Suffix";
+                var a = "|sdfsdfsfdd";
+                composite.StringValue += "Suffixgg";
             }
             return composite;
         }
